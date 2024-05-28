@@ -12,7 +12,7 @@
   gap: 2rem;
   width: 45%;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 2.5rem;
   border: 1px solid rgb(201, 201, 201);
   border-radius: 10px;
   /* justify-content: ; */
@@ -50,17 +50,21 @@
     border: 1px solid #8064a2;
     border-radius: 6px;
 }
+.card-btn button:hover{
+    background-color: #e5e3e7;
+}
+
 .card-item-last{
     display: flex;
   flex-direction: column;
   gap: 2rem;
   /* width: 45%; */
   justify-content: space-around;
-  padding: 2rem;
+  padding: 2.5rem;
   border: 1px solid rgb(201, 201, 201);
   border-radius: 10px;
 }
 .cards-item-last{
   width: 92%;
-margin-top: 6rem;
+margin-top: 9rem;
 }
