@@ -9,6 +9,9 @@
     border-radius: 10px;
     margin: 3rem 6.7rem;
 }
+.il img{
+    width: 80vw;
+}
 .t-head{
     font-size: 1.4rem;
     display: flex;

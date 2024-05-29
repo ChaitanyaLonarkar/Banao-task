@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Addnew from './Components/Addnew';
 import Navbarr from './Components/Navbarr';
 import Footer from "./Components/Footer"
+import "./Css/Responsive.css"
 
 function App() {
   // const [count, setCount] = useState(0)

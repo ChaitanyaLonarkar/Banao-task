@@ -15,13 +15,13 @@
   gap: 3rem;
   width: 50%;
 }
-.l-text{
-    font-style: normal;
-    font-weight: 300;
-    font-size: .875rem;
-    line-height: 1.875rem;
-    color: #606060;
-    letter-spacing: .02em;
+.l-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.875rem;
+  color: #606060;
+  letter-spacing: 0.02em;
 }
 .l-head {
   font-style: italic;
@@ -139,14 +139,29 @@
   font-size: 0.85rem;
 }
 .Authform .btn {
-  margin-top:1rem;
+  margin-top: 1rem;
   width: 100%;
   font-size: 14px;
   border: 1px solid;
   color: #fff;
   background-color: #8064a2;
 }
-hr{
-    width: max-content;
-    position: absolute;
+.hr-line {
+  height: 3px;
+  background-color: #b3b3b3;
+  width: -webkit-fill-available;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .orr {
+  /* display: inline; */
+  display: block;
+  font-size: 13px;
+  font-weight: 800;
+  width: 43%;
+  padding: 0px 5px;
+  margin: 0;
 }

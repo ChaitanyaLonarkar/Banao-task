@@ -12,9 +12,14 @@ export default function SignIn() {
           <button>Continue With Google</button>
           <button>Continue With Facebook</button>
         </div>
-        <div>
-         <hr />
-          <span >or Sign with</span>
+        <div className="or">
+          <div className="hr-line">
+            
+          </div>
+          <p className="orr" >or Sign with</p>
+          <div className="hr-line">
+            
+            </div>
         </div>
         <div className="id-pass">
           <input type="email" placeholder="Email" />
