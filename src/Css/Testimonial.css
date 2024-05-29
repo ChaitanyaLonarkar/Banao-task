@@ -1,0 +1,85 @@
+.testi{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* width: 45%; */
+    justify-content: space-around;
+    padding: 2.5rem;
+    background-color: rgb(247, 245, 249);
+    border-radius: 10px;
+    margin: 3rem 6.7rem;
+}
+.t-head{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+.t-text{
+    font-weight: 200;
+    color: gray;
+
+    font-size: 1.152rem;
+}
+.quotes{
+    padding: 5px;
+    color: aliceblue;
+    background: #8064A2;
+    font-size: xx-large;
+    border-radius: 50%;
+}
+.voice{
+    display: flex;
+    justify-content: space-between;
+}
+.voicee{
+    background: #8064A2;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 3.125rem;
+    width: 75%;
+    display: flex
+}
+
+.voicee .hr{
+    height: 3px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    border-radius: 4px;
+    width:75%;
+    background-color: white;
+}
+.play{
+    padding: 5px;
+    color: aliceblue;
+    /* background: #8064A2; */
+    font-size: 3.5rem;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.name-role p:first-child{
+    color: #8064a2;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: .36px;
+    margin: 0;
+}
+.name-role p:last-child{
+    color: #0096c8;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: .28px;
+    margin: 0;
+}

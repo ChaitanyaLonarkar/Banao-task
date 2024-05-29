@@ -79,7 +79,7 @@ export default function Cards() {
             Are you a teacher or expert? Do you sell or rent out equipment, venue or event tickets? Or, you know someone who should be on hobbycue? Go ahead and Add your Own page..
             </div>
             <div className="card-btn">
-              <button>Add new</button>
+              <button><a href="/addnew">Add new</a></button>
             </div>
           </div>
           

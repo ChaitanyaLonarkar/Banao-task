@@ -68,3 +68,7 @@
   width: 92%;
 margin-top: 9rem;
 }
+.card-btn a{
+  text-decoration: none;
+  color: #8064a2;
+}

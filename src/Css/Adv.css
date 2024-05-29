@@ -1,0 +1,31 @@
+.adv{
+    margin:  6.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.adv i{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    color: #000;
+    letter-spacing: 0.02em;
+}
+.a-head{
+    display: flex;
+    flex-direction: column;
+}
+.a-head button{
+    background-color: #775f9e;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    margin: 2rem 0rem 6rem;
+    padding: .6rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    width: 10%;
+}

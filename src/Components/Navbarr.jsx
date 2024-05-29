@@ -7,7 +7,12 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import InputGroup from "react-bootstrap/InputGroup";
-
+import { FaSearch, FaBell, FaShoppingCart, FaSignInAlt } from 'react-icons/fa';
+import { GrStarOutline } from "react-icons/gr";
+import { MdExplore } from "react-icons/md";
+import { FaBookmark } from "react-icons/fa";
+import logo from '../assets/logo.svg'
+// import "@fontsource/poppins";
 import "../Css/Navbar.css";
 export default function Navbarr() {
   return (
@@ -78,7 +83,57 @@ export default function Navbarr() {
           </Navbar.Collapse>
         </Container>
       </Navbar> */}
-      <div style={{background:"#d9caca", height:"80px"}}>Navbar</div>
+      {/* <div style={{background:"#d9caca", height:"80px"}}>Navbar</div> */}
+      <div className="navbar-1">
+        <nav className="navbar">
+          <div className="navbar-logo">
+            <img src={logo} alt="logo" className="logo" />
+          </div>
+          <div className="navbar-search">
+            <input
+              type="text"
+              placeholder="Search here..."
+             
+            />
+            <button>
+              <FaSearch />
+            </button>
+          </div>
+          <div className="navbar-links">
+            <MdExplore className="gr" />
+            <NavDropdown title="Explore" id="navbarScrollingDropdown">
+                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action4">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action5">
+                  Something else here
+                </NavDropdown.Item>
+              </NavDropdown>
+            <GrStarOutline className="gr" />
+
+              <NavDropdown title="Hobbies" id="navbarScrollingDropdown">
+                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action4">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item href="#action5">
+                  Something else here
+                </NavDropdown.Item>
+              </NavDropdown>
+          </div>
+          <div className="navbar-icons">
+            <FaBookmark style={{}} />
+            <FaBell />
+            <FaShoppingCart />
+            <button className="sign-in-btn">
+              Sign In
+            </button>
+          </div>
+        </nav>
+      </div>
     </>
   );
 }
