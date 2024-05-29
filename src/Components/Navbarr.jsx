@@ -116,7 +116,7 @@ export default function Navbarr() {
         <IoClose style={{fontSize:"2rem"}} onClick={toggleMenu} />
         <button className="sign-in-btn">Sign In</button>
         <div className="navbar-linkss">
-          <div style={{ display: "flex", gap: "5px" }}>
+          <div style={{ display: "flex", gap: "15px" }}>
             <MdExplore className="gr" />
             <NavDropdown title="Explore" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
@@ -129,7 +129,7 @@ export default function Navbarr() {
               </NavDropdown.Item>
             </NavDropdown>
           </div>
-          <div style={{ display: "flex", gap: "5px" }}>
+          <div style={{ display: "flex", gap: "15px" }}>
             <GrStarOutline className="gr" />
 
             <NavDropdown title="Hobbies" id="navbarScrollingDropdown">

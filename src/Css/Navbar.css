@@ -222,22 +222,23 @@
   background-color: transparent;
 }
 .toggleer{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 2rem;
-    height: 50vh;
-    position: absolute;
-    background-color: #ffffff;
-    width: 25rem;
-    padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 2rem;
+  padding: 5em;
+  height: 71vh;
+  position: absolute;
+  background-color: #ffffff;
+  width: -webkit-fill-available;
+  padding-top: 3rem;
 }
 .navbar-linkss{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    /* align-items: center; */
     gap: 2rem;
     font-size: larger;
 }
