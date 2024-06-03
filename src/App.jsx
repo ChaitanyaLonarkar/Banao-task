@@ -11,7 +11,7 @@ import Footer from "./Components/Footer"
 import "./Css/Responsive.css"
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const count=5
 
   return (
     <BrowserRouter>
